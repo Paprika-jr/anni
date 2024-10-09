@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/photo_2024-10-08_23-03-35.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(8px); /* Adjust the blur intensity here */
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {border: solid 3px rgb(17, 169, 230);
+          border-radius: 20px;
+          background-color: rgba(255, 255, 255, 0.801);
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          color: rgb(21, 89, 167);
+          text-align: center;}
+
+h1 { text-align: center;}
+
+h2 {text-align: center;}
+
+a { text-align: center;}
+
+a {
+    
+    color: rgb(118, 219, 204);
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+  }
+ a:hover:not(.active) {
+    background-color: #f1b7ff;
+  }
+  
+.active {
+    background-color: #3258a8;
+  }
+
+
